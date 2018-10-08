@@ -19,7 +19,7 @@ class TodoForm extends Component {
     }
     render () {
       return (
-        <form ref="form" onSubmit={this.onSubmit} className="form-inline">
+        <form ref="form" onSubmit={this.onSubmit} className="form-inline adding">
           <input type="text" ref="itemName" className="form-control" placeholder="add a new todo..."/>
           <button type="submit" className="btn btn-default">Add</button> 
         </form>
